@@ -25,7 +25,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox minHeight="700.0" minWidth="972.0" prefHeight="700.0" prefWidth="972.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentdashboard.HelloController">
+<VBox minHeight="700.0" minWidth="972.0" prefHeight="743.0" prefWidth="972.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentdashboard.HelloController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
@@ -401,7 +401,7 @@
                               </font>
                            </Label>
                            <ComboBox fx:id="marksEntryMonth" layoutX="123.0" layoutY="10.0" onAction="#loadStudentForMarkEntry" prefWidth="150.0" promptText="Select Month" style="-fx-background-color: #76BBFD;" />
-                           <TableView fx:id="marksEntryTable" editable="true" layoutX="14.0" layoutY="57.0" prefHeight="435.0" prefWidth="910.0" tableMenuButtonVisible="true">
+                           <TableView fx:id="marksEntryTable" editable="true" layoutX="14.0" layoutY="73.0" prefHeight="432.0" prefWidth="910.0" tableMenuButtonVisible="true">
                               <columns>
                                  <TableColumn fx:id="fetchRn1" editable="false" prefWidth="43.99996566772461" resizable="false" text="RN" />
                                  <TableColumn fx:id="fetchStuName1" editable="false" prefWidth="196.00001525878906" resizable="false" sortable="false" text="Student's Name" />
@@ -420,12 +420,18 @@
                                  <Font name="System Bold" size="12.0" />
                               </font>
                            </Button>
-                           <Label layoutX="311.0" layoutY="14.0" prefHeight="17.0" prefWidth="36.0" text="F.M:">
+                           <Label layoutX="215.0" layoutY="50.0" prefHeight="17.0" prefWidth="36.0" text="F.M:">
                               <font>
                                  <Font name="Rockwell Bold" size="13.0" />
                               </font>
                            </Label>
-                           <TextField fx:id="fullMarks" layoutX="356.0" layoutY="10.0" prefHeight="25.0" prefWidth="63.0" promptText="75" />
+                           <TextField fx:id="fullMarks" layoutX="259.0" layoutY="46.0" prefHeight="25.0" prefWidth="47.0" promptText="75" />
+                           <TextField fx:id="fullMarks1" layoutX="332.0" layoutY="46.0" prefHeight="25.0" prefWidth="47.0" promptText="75" />
+                           <TextField fx:id="fullMarks11" layoutX="402.0" layoutY="46.0" prefHeight="25.0" prefWidth="47.0" promptText="75" />
+                           <TextField fx:id="fullMarks111" layoutX="466.0" layoutY="46.0" prefHeight="25.0" prefWidth="47.0" promptText="75" />
+                           <TextField fx:id="fullMarks1111" layoutX="525.0" layoutY="46.0" prefHeight="25.0" prefWidth="47.0" promptText="75" />
+                           <TextField fx:id="fullMarks11111" layoutX="589.0" layoutY="46.0" prefHeight="25.0" prefWidth="47.0" promptText="75" />
+                           <TextField fx:id="fullMarks111111" layoutX="650.0" layoutY="46.0" prefHeight="25.0" prefWidth="47.0" promptText="75" />
                         </children>
                      </Pane>
                   </children>
